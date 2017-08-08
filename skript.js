@@ -41,7 +41,7 @@ function invert(l){
 read(list);
 makeReis(list,text);
 
-for(j=0;j<10;j++){
+for(j=0;j<5;j++){
 	read(invert(list));
   makeReis(invert(list),text);
 	list=list.concat(invert(list));
